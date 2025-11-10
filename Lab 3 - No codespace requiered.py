@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # ---------- USER EDITABLE ----------
-file_names = ["AC_Group2_1018.xml", "AC_Group2_1045.xml", "AC_Group2_6061.xml"]
+file_names = ["AC_Group4_1018.xml", "AC_Group4_1045.xml", "AC_Group4_6061.xml"]
 D_values = {"1018": 0.241, "1045": 0.247, "6061": 0.247}
 l_0 = 1.0
 GAUGE_LENGTH_MM = l_0 * 25.4
@@ -214,3 +214,4 @@ print("\nMechanical Properties Summary:")
 print(df.to_string(index=False))
 df.to_csv("mechanical_properties_summary.csv", index=False)
 print("\n✓ Table exported to: mechanical_properties_summary.csv")
+
